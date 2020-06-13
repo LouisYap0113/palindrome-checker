@@ -7,4 +7,6 @@ function palindrome(str){
         {backstrarr.push(newstr[i]);}
 
     let backstr = backstrarr.join("");
+
+    return newstr === backstr? true:false;
 }
